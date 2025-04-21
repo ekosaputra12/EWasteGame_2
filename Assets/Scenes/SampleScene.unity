@@ -496,6 +496,7 @@ GameObject:
   - component: {fileID: 637074160}
   - component: {fileID: 637074159}
   - component: {fileID: 637074158}
+  - component: {fileID: 637074162}
   m_Layer: 0
   m_Name: Penyimpanan
   m_TagString: StorageZone
@@ -591,6 +592,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &637074162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637074157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c26b1f59ee6bfc45865c77631b6c75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objekArray:
+  - {fileID: 3544303028059060415, guid: 1268e37067b7d3542a793b73506fbfd3, type: 3}
+  - {fileID: 9083758962842653030, guid: 7bc7918ff6b3fc040a9f5141a42ecab5, type: 3}
+  boxPenyimpanan: {fileID: 637074157}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
